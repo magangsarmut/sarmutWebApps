@@ -1,0 +1,17 @@
+@layer base {
+    @font-face {
+        font-family: 'Circular STD';
+        src:url('/fonts/CircularStd-Black') format('ttf'), 
+            url('/fonts/CircularStd-Black') format('woff'),
+            url('/fonts/CircularStd-Black') format('woff2');
+    }
+
+    h1 {
+        font-family: Circular STD;
+    }
+    
+    html {
+        font-family: inter;
+    }
+
+}

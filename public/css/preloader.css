@@ -1,0 +1,48 @@
+@media (min-width: 375px) {
+    #preloader{
+        background: white url(/img/logo/logo-sarmut.png) no-repeat center center;
+        background-size: 30%;
+        animation: beat 5s infinite alternate;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+    
+    /* Heart beat animation */
+    @keyframes beat{
+        to { transform: scale(1.1); }
+    }
+}
+@media (min-width: 768px) {
+    #preloader{
+        background: white url(/img/logo/logo-sarmut.png) no-repeat center center;
+        background-size: 30%;
+        animation: beat 5s infinite alternate;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+    
+    /* Heart beat animation */
+    @keyframes beat{
+        to { transform: scale(1.1); }
+    }
+}
+@media (min-width: 1024px) {
+    #preloader{
+        background: white url(/img/logo/logo-sarmut.png) no-repeat center center;
+        background-size: 15%;
+        animation: beat 5s infinite alternate;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+    
+    /* Heart beat animation */
+    @keyframes beat{
+        to { transform: scale(1.1); }
+    }
+}
